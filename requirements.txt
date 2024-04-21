@@ -6,4 +6,4 @@ tensorflow
 gunicorn
 pillow
 loguru
-sklearn
+scikit-learn
