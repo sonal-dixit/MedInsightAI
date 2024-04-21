@@ -4,8 +4,24 @@ import { useLocation } from "react-router-dom";
 
 const Layout = ({ children }) => {
   const { pathname } = useLocation();
-  const dark = pathname === "/" ? true : false;
-  const dark1 = pathname === "/loading/" ? true : false;
+  const getHeading = (path) => {
+    switch (path) {
+      case "/":
+      case "/heart":
+      case "/diabetes":
+      case "/breastCancer":
+      case "/kidney":
+      case "/liver":
+      case "/malaria":
+      case "/pneumonia":
+        return true;
+      default:
+        return false;
+    }
+  };
+console.log(pathname);
+  const dark = getHeading(pathname) ? true : false;
+  const dark1 = pathname === "/loading" ? true : false;
 
   return (
     <div

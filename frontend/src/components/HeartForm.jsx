@@ -1,6 +1,7 @@
 const HeartForm = ({ formData, setFormData }) => {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+    console.log(formData);
   };
 
   const today = new Date();
@@ -151,7 +152,7 @@ const HeartForm = ({ formData, setFormData }) => {
           value={formData.ca}
           onChange={handleChange}
         />
-        <input
+        {/* <input
           type="datetime-local"
           name="datetime"
           className="input"
@@ -160,7 +161,7 @@ const HeartForm = ({ formData, setFormData }) => {
           value={formData.datetime || formattedDate}
           defaultValue={formattedDate}
           onChange={handleChange}
-        />
+        /> */}
       </div>
     </form>
   );

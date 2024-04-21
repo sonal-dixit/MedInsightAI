@@ -119,3 +119,8 @@ body {
     background-position: 0 0;
   }
 }
+
+.active{
+  background-color: #f26dd5;
+  color: #fff;
+}

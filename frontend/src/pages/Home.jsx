@@ -1,14 +1,15 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import HomepageBody from "../components/HomepageBody";
 import img9 from "../assets/homepage/9.webp";
 import img1 from "../assets/homepage/12.webp";
 import HeartForm from "../components/HeartForm";
-import { Tab, Tabs } from "@nextui-org/react";
 import BreastCancerForm from "../components/BreastCancerForm";
 import DiabetesForm from "../components/DiabetesForm";
 import KidneyForm from "../components/KidneyForm";
+import axios from "axios";
+
 const HeadingFromTop = () => {
   return (
     <motion.h1
@@ -29,22 +30,15 @@ const HeadingFromTop = () => {
 
 const NewHome = () => {
   const navigate = useNavigate();
-  const [heartData, setHeartData] = useAtom(heartDataAtom);
-  const [formData, setFormData] = useState({
-    age: "",
-    sex: "",
-    cp: "",
-    trestbps: "",
-    chol: "",
-    fbs: "",
-    restecg: "",
-    thalach: "",
-    exang: "",
-    oldpeak: "",
-    slope: "",
-    ca: "",
-    thal: "",
-  });
+  const location = useLocation();
+  const [path, setPath] = useState(location.pathname);
+  const [formData, setFormData] = useState({});
+  useEffect(() => {
+    setFormData({});
+    setPath(location.pathname);
+  }, [location]);
+
+  // const [heartData, setHeartData] = useAtom(heartDataAtom);
 
   const sectionRef = useRef(null);
   const scrollToSection = () => {
@@ -53,20 +47,36 @@ const NewHome = () => {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    // try {
+    //   const response = await axios.post("/predict", formData);
+    //   console.log(response.data);
+    // } catch (error) {
+    //   console.error(error);
+    // }
+    navigate("/loading");
+  };
 
-    const missingFields = Object.entries(formData).filter(
-      ([key, value]) => value === ""
-    );
-
-    if (missingFields.length === 0) {
-      setHeartData(formData);
-      navigate("/loading/");
-    } else {
-      const missingFieldNames = missingFields.map(([key, value]) => key);
-      const errorMessage = `Please fill in the following fields: ${missingFieldNames.join(", ")}`;
-      toast.error(errorMessage);
+  const getHeading = () => {
+    switch (path) {
+      case "/":
+      case "/heart":
+        return "Heart Disease Prediction";
+      case "/diabetes":
+        return "Diabetes Prediction";
+      case "/breastCancer":
+        return "Breast Cancer Prediction";
+      case "/kidney":
+        return "Kidney Disease Prediction";
+      case "/liver":
+        return "Liver Disease Prediction";
+      case "/malaria":
+        return "Malaria Prediction";
+      case "/pneumonia":
+        return "Pneumonia Prediction";
+      default:
+        return "Medical Insights";
     }
   };
 
@@ -101,59 +111,32 @@ const NewHome = () => {
           />
         </section>
         <section className="flex flex-col justify-center items-center max-sm:mt-0 z-10">
-          <>
-          <Tabs>
-            <Tab key="1" title="Heart Disease Prediction">
-
-            <div className="flex flex-col gap-4 mt-6 max-sm:px-4 w-full max-lg:w-full max-md:px-8 max-lg:px-24 z-[100]">
-  <HeartForm formData={formData} setFormData={setFormData}/>
-</div>
-
-            </Tab>
-            <Tab key="2" title="Diabetes Prediction">
-
-            <div className="flex flex-col gap-4 mt-6 max-sm:px-4 w-full max-lg:w-full max-md:px-8 max-lg:px-24 z-[10]">
-  <DiabetesForm formData={formData} setFormData={setFormData}/>
-</div>
-
-            </Tab>
-            <Tab key="3" title="Breast Cancer Prediction">
-
-            <div className="flex flex-col gap-4 mt-6 max-sm:px-4 w-full max-lg:w-full max-md:px-8 max-lg:px-24 z-[10]">
-  <BreastCancerForm formData={formData} setFormData={setFormData}/>
-</div>
-
-            </Tab>
-            <Tab key="4" title="Kidney Disease Prediction">
-
-            <div className="flex flex-col gap-4 mt-6 max-sm:px-4 w-full max-lg:w-full max-md:px-8 max-lg:px-24 z-[10]">
-  <KidneyForm formData={formData} setFormData={setFormData}/>
-</div>
-
-            </Tab>
-            <Tab key="5" title="Liver Disease Prediction">
-
-            <div className="flex flex-col gap-4 mt-6 max-sm:px-4 w-full max-lg:w-full max-md:px-8 max-lg:px-24 z-[100]">
-  <HeartForm formData={formData} setFormData={setFormData}/>
-</div>
-
-            </Tab>
-            <Tab key="6" title="Malaria Prediction">
-
-            <div className="flex flex-col gap-4 mt-6 max-sm:px-4 w-full max-lg:w-full max-md:px-8 max-lg:px-24 z-[100]">
-  <HeartForm formData={formData} setFormData={setFormData}/>
-</div>
-
-            </Tab>
-            <Tab key="7" title="Pneumonia Prediction">
-
-            <div className="flex flex-col gap-4 mt-6 max-sm:px-4 w-full max-lg:w-full max-md:px-8 max-lg:px-24 z-[100]">
-  <HeartForm formData={formData} setFormData={setFormData}/>
-</div>
-
-            </Tab>
-          </Tabs>
-          </>
+          <div className="flex flex-col gap-4 mt-6 max-sm:px-4 max-lg:w-full max-md:px-8 max-lg:px-24 z-[100] w-1/2">
+            <h1 className="text-white-50 text-4xl font-semibold text-center">
+              {getHeading()}
+            </h1>
+            {(path === "/heart" || path==="/") && (
+              <HeartForm formData={formData} setFormData={setFormData} />
+            )}
+            {path === "/diabetes" && (
+              <DiabetesForm formData={formData} setFormData={setFormData} />
+            )}
+            {path === "/breastCancer" && (
+              <BreastCancerForm formData={formData} setFormData={setFormData} />
+            )}
+            {path === "/kidney" && (
+              <KidneyForm formData={formData} setFormData={setFormData} />
+            )}
+            {path === "/liver" && (
+              <HeartForm formData={formData} setFormData={setFormData} />
+            )}
+            {path === "/malaria" && (
+              <HeartForm formData={formData} setFormData={setFormData} />
+            )}
+            {path === "/pneumonia" && (
+              <HeartForm formData={formData} setFormData={setFormData} />
+            )}
+          </div>
           <button
             className="btn w-48 glow-on-hover mt-8 z-10"
             onClick={handleSubmit}
