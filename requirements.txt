@@ -42,7 +42,7 @@ tenacity==8.2.3
 tensorboard==2.9.1
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow==2.15.1
+tensorflow==2.9.1
 tensorflow-estimator==2.9.0
 tensorflow-io-gcs-filesystem==0.36.0
 termcolor==2.4.0
@@ -53,3 +53,4 @@ uvicorn==0.29.0
 Werkzeug==2.0.3
 wrapt==1.16.0
 pytz==2024.1
+tensorflow==2.15.1
