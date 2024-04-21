@@ -6,3 +6,5 @@ tensorflow
 gunicorn
 pillow
 loguru
+pickle
+sklearn
