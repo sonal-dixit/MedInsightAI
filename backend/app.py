@@ -1,5 +1,5 @@
 import os
-from flask import Flask, render_template, request
+from flask import Flask, request, jsonify, render_template
 import pickle
 import numpy as np
 from PIL import Image
@@ -9,8 +9,7 @@ from loguru import logger
 app = Flask(__name__)
 
 def predict(values, dic):
-    # diabetes
-    if len(values) == 8:
+    if len(values) == 8:  # diabetes
         dic2 = {'NewBMI_Obesity 1': 0, 'NewBMI_Obesity 2': 0, 'NewBMI_Obesity 3': 0, 'NewBMI_Overweight': 0,
                 'NewBMI_Underweight': 0, 'NewInsulinScore_Normal': 0, 'NewGlucose_Low': 0,
                 'NewGlucose_Normal': 0, 'NewGlucose_Overweight': 0, 'NewGlucose_Secret': 0}
@@ -45,31 +44,27 @@ def predict(values, dic):
 
         model = pickle.load(open('models/diabetes.pkl','rb'))
         values = np.asarray(values2)
-        return model.predict(values.reshape(1, -1))[0]
+        return model.predict_proba(values.reshape(1, -1))[0][1]  # Return probability of positive class
 
-    # breast_cancer
-    elif len(values) == 22:
+    elif len(values) == 22:  # breast_cancer
         model = pickle.load(open('models/breast_cancer.pkl','rb'))
         values = np.asarray(values)
-        return model.predict(values.reshape(1, -1))[0]
+        return model.predict_proba(values.reshape(1, -1))[0][1]  # Return probability of positive class
 
-    # heart disease
-    elif len(values) == 13:
+    elif len(values) == 13:  # heart disease
         model = pickle.load(open('models/heart.pkl','rb'))
         values = np.asarray(values)
-        return model.predict(values.reshape(1, -1))[0]
+        return model.predict_proba(values.reshape(1, -1))[0][1]  # Return probability of positive class
 
-    # kidney disease
-    elif len(values) == 24:
+    elif len(values) == 24:  # kidney disease
         model = pickle.load(open('models/kidney.pkl','rb'))
         values = np.asarray(values)
-        return model.predict(values.reshape(1, -1))[0]
+        return model.predict_proba(values.reshape(1, -1))[0][1]  # Return probability of positive class
 
-    # liver disease
-    elif len(values) == 10:
+    elif len(values) == 10:  # liver disease
         model = pickle.load(open('models/liver.pkl','rb'))
         values = np.asarray(values)
-        return model.predict(values.reshape(1, -1))[0]
+        return model.predict_proba(values.reshape(1, -1))[0][1]  # Return probability of positive class
 
 @app.route("/")
 def home():
@@ -103,7 +98,7 @@ def malariaPage():
 def pneumoniaPage():
     return render_template('pneumonia.html')
 
-@app.route("/predict", methods = ['POST', 'GET'])
+@app.route("/predict", methods=['POST'])
 def predictPage():
     try:
         if request.method == 'POST':
@@ -116,19 +111,21 @@ def predictPage():
                     to_predict_dict[key] = float(value)
 
             to_predict_list = list(map(float, list(to_predict_dict.values())))
-            pred = predict(to_predict_list, to_predict_dict)
-    except:
-        message = "Please enter valid data"
-        return render_template("home.html", message=message)
+            pred_prob = predict(to_predict_list, to_predict_dict)
 
-    return render_template('predict.html', pred=pred)
+            # Apply thresholding
+            threshold = 0.5
+            pred = 1 if pred_prob > threshold else 0
 
-@app.route("/malariapredict", methods=['POST', 'GET'])
+            return jsonify({"prediction": pred})
+    except Exception as e:
+        logger.error(e)
+        return jsonify({"error": "Please enter valid data"})
+
+@app.route("/malariapredict", methods=['POST'])
 def malariapredictPage():
-    pred = None  # Initialize pred outside the try block
-    if request.method == 'POST':
-        try:
-            # Check if the 'uploads' directory exists, if not, create it
+    try:
+        if request.method == 'POST':
             uploads_dir = os.path.join(os.path.dirname(__file__), 'uploads')
             if not os.path.exists(uploads_dir):
                 os.makedirs(uploads_dir)
@@ -142,18 +139,21 @@ def malariapredictPage():
             img = np.expand_dims(img, axis=0)
 
             model = tf.keras.models.load_model("models/malaria.h5")
-            pred = np.argmax(model.predict(img))
-        except Exception as e:
-            message = "Please upload an image"
-            logger.error(e)
-            return render_template('malaria.html', message=message)
-    return render_template('malaria_predict.html', pred=pred)
+            pred_prob = model.predict(img)[0][0]  # Assuming 0 is negative class and 1 is positive class
 
+            # Apply thresholding
+            # threshold = 0.5
+            pred = 1 if pred_prob == 1 else 0
 
-@app.route("/pneumoniapredict", methods = ['POST', 'GET'])
+            return jsonify({"prediction": pred})
+    except Exception as e:
+        logger.error(e)
+        return jsonify({"error": "Please upload an image"})
+
+@app.route("/pneumoniapredict", methods=['POST'])
 def pneumoniapredictPage():
-    if request.method == 'POST':
-        try:
+    try:
+        if request.method == 'POST':
             img = Image.open(request.files['image']).convert('L')
             img.save("uploads/image.jpg")
             img_path = os.path.join(os.path.dirname(__file__), 'uploads/image.jpg')
@@ -163,11 +163,16 @@ def pneumoniapredictPage():
             img = np.expand_dims(img, axis=0)
 
             model = tf.keras.models.load_model("models/pneumonia.h5")
-            pred = np.argmax(model.predict(img))
-        except:
-            message = "Please upload an image"
-            return render_template('pneumonia.html', message=message)
-    return render_template('pneumonia_predict.html', pred=pred)
+            pred_prob = model.predict(img)[0][0]  # Assuming 0 is negative class and 1 is positive class
+
+            # Apply thresholding
+            threshold = 0.5
+            pred = 1 if pred_prob > threshold else 0
+
+            return jsonify({"prediction": pred})
+    except Exception as e:
+        logger.error(e)
+        return jsonify({"error": "Please upload an image"})
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run(debug=True)

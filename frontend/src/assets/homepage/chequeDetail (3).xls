@@ -1,0 +1,1542 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="ProgId" content="Excel.Sheet">
+  <meta name="Generator" content="WPS Office ET">
+  <!--[if gte mso 9]>
+   <xml>
+    <o:DocumentProperties>
+     <o:Created>2023-12-28T23:09:54</o:Created>
+     <o:LastAuthor>Shivam</o:LastAuthor>
+     <o:LastSaved>2023-12-28T23:10:33</o:LastSaved>
+    </o:DocumentProperties>
+    <o:CustomDocumentProperties>
+     <o:ICV dt:dt="string">3D2ADAA400404CB9BB31E0E50ABFF092_12</o:ICV>
+     <o:KSOProductBuildVer dt:dt="string">1033-12.2.0.13359</o:KSOProductBuildVer>
+    </o:CustomDocumentProperties>
+   </xml>
+  <![endif]-->
+  <style>
+<!-- @page
+	{margin:1.00in 0.75in 1.00in 0.75in;
+	mso-header-margin:0.50in;
+	mso-footer-margin:0.50in;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.font0
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font1
+	{color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font2
+	{color:#0000FF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font3
+	{color:#800080;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font4
+	{color:#FF0000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font5
+	{color:#44546A;
+	font-size:18.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font6
+	{color:#7F7F7F;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:italic;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font7
+	{color:#44546A;
+	font-size:15.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font8
+	{color:#44546A;
+	font-size:13.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font9
+	{color:#44546A;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font10
+	{color:#3F3F76;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font11
+	{color:#3F3F3F;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font12
+	{color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font13
+	{color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font14
+	{color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font15
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font16
+	{color:#006100;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font17
+	{color:#9C0006;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font18
+	{color:#9C6500;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font19
+	{color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font20
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.style0
+	{mso-number-format:"General";
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-pattern:auto;
+	mso-background-source:auto;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:"Normal";
+	mso-style-id:0;}
+.style16
+	{mso-number-format:"_ * \#\,\#\#0\.00_ \;_ * \\-\#\,\#\#0\.00_ \;_ * \0022-\0022??_ \;_ \@_ ";
+	mso-style-name:"Comma";
+	mso-style-id:3;}
+.style17
+	{mso-number-format:"_ \0022₹\0022* \#\,\#\#0\.00_ \;_ \0022₹\0022* \\-\#\,\#\#0\.00_ \;_ \0022₹\0022* \0022-\0022??_ \;_ \@_ ";
+	mso-style-name:"Currency";
+	mso-style-id:4;}
+.style18
+	{mso-number-format:"0%";
+	mso-style-name:"Percent";
+	mso-style-id:5;}
+.style19
+	{mso-number-format:"_ * \#\,\#\#0_ \;_ * \\-\#\,\#\#0_ \;_ * \0022-\0022_ \;_ \@_ ";
+	mso-style-name:"Comma [0]";
+	mso-style-id:6;}
+.style20
+	{mso-number-format:"_ \0022₹\0022* \#\,\#\#0_ \;_ \0022₹\0022* \\-\#\,\#\#0_ \;_ \0022₹\0022* \0022-\0022_ \;_ \@_ ";
+	mso-style-name:"Currency [0]";
+	mso-style-id:7;}
+.style21
+	{color:#0000FF;
+	font-size:11.0pt;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri;
+	mso-style-name:"Hyperlink";
+	mso-style-id:8;}
+.style22
+	{color:#800080;
+	font-size:11.0pt;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri;
+	mso-style-name:"Followed Hyperlink";
+	mso-style-id:9;}
+.style23
+	{mso-pattern:auto none;
+	background:#FFFFCC;
+	border:.5pt solid #B2B2B2;
+	mso-style-name:"Note";}
+.style24
+	{color:#FF0000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Warning Text";}
+.style25
+	{color:#44546A;
+	font-size:18.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-style-name:"Title";}
+.style26
+	{color:#7F7F7F;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:italic;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"CExplanatory Text";}
+.style27
+	{color:#44546A;
+	font-size:15.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border-bottom:1.0pt solid #5B9BD5;
+	mso-style-name:"Heading 1";}
+.style28
+	{color:#44546A;
+	font-size:13.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border-bottom:1.0pt solid #5B9BD5;
+	mso-style-name:"Heading 2";}
+.style29
+	{color:#44546A;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border-bottom:1.0pt solid #ACCCEA;
+	mso-style-name:"Heading 3";}
+.style30
+	{color:#44546A;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-style-name:"Heading 4";}
+.style31
+	{mso-pattern:auto none;
+	background:#FFCC99;
+	color:#3F3F76;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid #7F7F7F;
+	mso-style-name:"Input";}
+.style32
+	{mso-pattern:auto none;
+	background:#F2F2F2;
+	color:#3F3F3F;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid #3F3F3F;
+	mso-style-name:"Output";}
+.style33
+	{mso-pattern:auto none;
+	background:#F2F2F2;
+	color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid #7F7F7F;
+	mso-style-name:"Calculation";}
+.style34
+	{mso-pattern:auto none;
+	background:#A5A5A5;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:2.0pt double #3F3F3F;
+	mso-style-name:"Check Cell";}
+.style35
+	{color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border-bottom:2.0pt double #FF8001;
+	mso-style-name:"Linked Cell";}
+.style36
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border-top:.5pt solid #5B9BD5;
+	border-bottom:2.0pt double #5B9BD5;
+	mso-style-name:"Total";}
+.style37
+	{mso-pattern:auto none;
+	background:#C6EFCE;
+	color:#006100;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Good";}
+.style38
+	{mso-pattern:auto none;
+	background:#FFC7CE;
+	color:#9C0006;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Bad";}
+.style39
+	{mso-pattern:auto none;
+	background:#FFEB9C;
+	color:#9C6500;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Neutral";}
+.style40
+	{mso-pattern:auto none;
+	background:#5B9BD5;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Accent1";}
+.style41
+	{mso-pattern:auto none;
+	background:#DDEBF7;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - Accent1";}
+.style42
+	{mso-pattern:auto none;
+	background:#BDD7EE;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - Accent1";}
+.style43
+	{mso-pattern:auto none;
+	background:#9BC2E6;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - Accent1";}
+.style44
+	{mso-pattern:auto none;
+	background:#ED7D31;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Accent2";}
+.style45
+	{mso-pattern:auto none;
+	background:#FCE4D6;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - Accent2";}
+.style46
+	{mso-pattern:auto none;
+	background:#F8CBAD;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - Accent2";}
+.style47
+	{mso-pattern:auto none;
+	background:#F4B084;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - Accent2";}
+.style48
+	{mso-pattern:auto none;
+	background:#A5A5A5;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Accent3";}
+.style49
+	{mso-pattern:auto none;
+	background:#EDEDED;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - Accent3";}
+.style50
+	{mso-pattern:auto none;
+	background:#DBDBDB;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - Accent3";}
+.style51
+	{mso-pattern:auto none;
+	background:#C9C9C9;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - Accent3";}
+.style52
+	{mso-pattern:auto none;
+	background:#FFC000;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Accent4";}
+.style53
+	{mso-pattern:auto none;
+	background:#FFF2CC;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - Accent4";}
+.style54
+	{mso-pattern:auto none;
+	background:#FFE699;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - Accent4";}
+.style55
+	{mso-pattern:auto none;
+	background:#FFD966;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - Accent4";}
+.style56
+	{mso-pattern:auto none;
+	background:#4472C4;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Accent5";}
+.style57
+	{mso-pattern:auto none;
+	background:#D9E1F2;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - Accent5";}
+.style58
+	{mso-pattern:auto none;
+	background:#B4C6E7;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - Accent5";}
+.style59
+	{mso-pattern:auto none;
+	background:#8EA9DB;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - Accent5";}
+.style60
+	{mso-pattern:auto none;
+	background:#70AD47;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Accent6";}
+.style61
+	{mso-pattern:auto none;
+	background:#E2EFDA;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - Accent6";}
+.style62
+	{mso-pattern:auto none;
+	background:#C6E0B4;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - Accent6";}
+.style63
+	{mso-pattern:auto none;
+	background:#A9D08E;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - Accent6";}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	mso-number-format:"General";
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-pattern:auto;
+	mso-background-source:auto;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;}
+.xl65
+	{mso-style-parent:style0;
+	text-align:center;
+	white-space:normal;
+	mso-pattern:auto none;
+	background:#CB0A21;
+	color:#FFFFFF;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl66
+	{mso-style-parent:style0;
+	white-space:normal;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl67
+	{mso-style-parent:style0;
+	mso-number-format:"dd/mm/yyyy";
+	white-space:normal;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+ -->  </style>
+  <!--[if gte mso 9]>
+   <xml>
+    <x:ExcelWorkbook>
+     <x:ExcelWorksheets>
+      <x:ExcelWorksheet>
+       <x:Name>chequeDetail (3)</x:Name>
+       <x:WorksheetOptions>
+        <x:DefaultRowHeight>300</x:DefaultRowHeight>
+        <x:StandardWidth>2340</x:StandardWidth>
+        <x:Selected/>
+        <x:Panes>
+         <x:Pane>
+          <x:Number>3</x:Number>
+          <x:ActiveCol>4</x:ActiveCol>
+          <x:ActiveRow>15</x:ActiveRow>
+          <x:RangeSelection>E16</x:RangeSelection>
+         </x:Pane>
+        </x:Panes>
+        <x:DoNotDisplayGridlines/>
+        <x:ProtectContents>False</x:ProtectContents>
+        <x:ProtectObjects>False</x:ProtectObjects>
+        <x:ProtectScenarios>False</x:ProtectScenarios>
+        <x:Print>
+         <x:PaperSizeIndex>9</x:PaperSizeIndex>
+        </x:Print>
+       </x:WorksheetOptions>
+      </x:ExcelWorksheet>
+     </x:ExcelWorksheets>
+     <x:ProtectStructure>False</x:ProtectStructure>
+     <x:ProtectWindows>False</x:ProtectWindows>
+     <x:WindowHeight>12210</x:WindowHeight>
+     <x:WindowWidth>28800</x:WindowWidth>
+    </x:ExcelWorkbook>
+    <x:ExcelName>
+     <x:Name>_FilterDatabase</x:Name>
+     <x:Hidden/>
+     <x:SheetIndex>1</x:SheetIndex>
+     <x:Formula>='chequeDetail (3)'!$A:$F</x:Formula>
+    </x:ExcelName>
+   </xml>
+  <![endif]-->
+ </head>
+ <body link="blue" vlink="purple">
+  <table width="849" border="0" cellpadding="0" cellspacing="0" style='width:636.75pt;border-collapse:collapse;table-layout:fixed;'>
+   <col width="114" style='mso-width-source:userset;mso-width-alt:4168;'/>
+   <col width="104" style='mso-width-source:userset;mso-width-alt:3803;'/>
+   <col width="80" style='mso-width-source:userset;mso-width-alt:2925;'/>
+   <col width="94" style='mso-width-source:userset;mso-width-alt:3437;'/>
+   <col width="131" style='mso-width-source:userset;mso-width-alt:4790;'/>
+   <col width="326" style='mso-width-source:userset;mso-width-alt:11921;'/>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl65" height="20" width="114" x:autofilter="all" x:autofilterrange="$A:F" style='height:15.00pt;width:85.50pt;' x:str>Sr. No.</td>
+    <td class="xl65" width="104" x:autofilter="all" style='width:78.00pt;' x:str>Loading Date</td>
+    <td class="xl65" width="80" x:autofilter="all" style='width:60.00pt;' x:str>Net value</td>
+    <td class="xl65" width="94" x:autofilter="all" style='width:70.50pt;' x:str>Tax amount</td>
+    <td class="xl65" width="131" x:autofilter="all" style='width:98.25pt;' x:str>Vehicle Number</td>
+    <td class="xl65" width="326" x:autofilter="all" style='width:244.50pt;' x:str>Destination</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>1</td>
+    <td class="xl67" align="right" x:num="45253.">23/11/2023</td>
+    <td class="xl66" align="right" x:num>15709.5</td>
+    <td class="xl66" align="right" x:num>785.48</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041007712-PREMWATI HP GAS SERVICE</td>
+   </tr>
+   <tr height="40" style='height:30.00pt;'>
+    <td class="xl66" height="40" align="right" style='height:30.00pt;' x:num>8</td>
+    <td class="xl67" align="right" x:num="45250.">20/11/2023</td>
+    <td class="xl66" align="right" x:num>8304.93</td>
+    <td class="xl66" align="right" x:num>415.25</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041006012-DHANDAAY HP GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>14</td>
+    <td class="xl67" align="right" x:num="45250.">20/11/2023</td>
+    <td class="xl66" align="right" x:num>8304.93</td>
+    <td class="xl66" align="right" x:num>415.25</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041006012-DHANDAAY HP GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>31</td>
+    <td class="xl67" align="right" x:num="45248.">18/11/2023</td>
+    <td class="xl66" align="right" x:num>5049.41</td>
+    <td class="xl66" align="right" x:num>252.47</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041037334-BHAGWATI GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>37</td>
+    <td class="xl67" align="right" x:num="45248.">18/11/2023</td>
+    <td class="xl66" align="right" x:num>5049.41</td>
+    <td class="xl66" align="right" x:num>252.47</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041037334-BHAGWATI GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>49</td>
+    <td class="xl67" align="right" x:num="45252.">22/11/2023</td>
+    <td class="xl66" align="right" x:num>4499.04</td>
+    <td class="xl66" align="right" x:num>224.95</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041023281-SWASTIK GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>56</td>
+    <td class="xl67" align="right" x:num="45252.">22/11/2023</td>
+    <td class="xl66" align="right" x:num>4499.04</td>
+    <td class="xl66" align="right" x:num>224.95</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041023281-SWASTIK GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>59</td>
+    <td class="xl67" align="right" x:num="45246.">16/11/2023</td>
+    <td class="xl66" align="right" x:num>10454.84</td>
+    <td class="xl66" align="right" x:num>522.74</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041009859-ANSHIKA HP GAS SERVICES</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>62</td>
+    <td class="xl67" align="right" x:num="45246.">16/11/2023</td>
+    <td class="xl66" align="right" x:num>10454.84</td>
+    <td class="xl66" align="right" x:num>522.74</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041009859-ANSHIKA HP GAS SERVICES</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>64</td>
+    <td class="xl67" align="right" x:num="45255.">25/11/2023</td>
+    <td class="xl66" align="right" x:num>5019.71</td>
+    <td class="xl66" align="right" x:num>250.99</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041018177-VANDANA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>65</td>
+    <td class="xl67" align="right" x:num="45256.">26/11/2023</td>
+    <td class="xl66" align="right" x:num>12523.32</td>
+    <td class="xl66" align="right" x:num>626.17</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041030848-ABHAY GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>68</td>
+    <td class="xl67" align="right" x:num="45245.">15/11/2023</td>
+    <td class="xl66" align="right" x:num>4989.71</td>
+    <td class="xl66" align="right" x:num>249.49</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041018229-KAKA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>70</td>
+    <td class="xl67" align="right" x:num="45255.">25/11/2023</td>
+    <td class="xl66" align="right" x:num>5019.71</td>
+    <td class="xl66" align="right" x:num>250.99</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041018177-VANDANA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>71</td>
+    <td class="xl67" align="right" x:num="45256.">26/11/2023</td>
+    <td class="xl66" align="right" x:num>12523.32</td>
+    <td class="xl66" align="right" x:num>626.17</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041030848-ABHAY GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>74</td>
+    <td class="xl67" align="right" x:num="45245.">15/11/2023</td>
+    <td class="xl66" align="right" x:num>4989.71</td>
+    <td class="xl66" align="right" x:num>249.49</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041018229-KAKA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>78</td>
+    <td class="xl67" align="right" x:num="45253.">23/11/2023</td>
+    <td class="xl66" align="right" x:num>15709.5</td>
+    <td class="xl66" align="right" x:num>785.48</td>
+    <td class="xl66" x:str>UP14FT2379</td>
+    <td class="xl66" x:str>0041007712-PREMWATI HP GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>4</td>
+    <td class="xl67" align="right" x:num="45251.">21/11/2023</td>
+    <td class="xl66" align="right" x:num>7671.32</td>
+    <td class="xl66" align="right" x:num>383.57</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041028527-BILHAUR GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>7</td>
+    <td class="xl67" align="right" x:num="45249.">19/11/2023</td>
+    <td class="xl66" align="right" x:num>11287.86</td>
+    <td class="xl66" align="right" x:num>564.39</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041031474-JAMO GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>13</td>
+    <td class="xl67" align="right" x:num="45249.">19/11/2023</td>
+    <td class="xl66" align="right" x:num>11287.86</td>
+    <td class="xl66" align="right" x:num>564.39</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041031474-JAMO GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>18</td>
+    <td class="xl67" align="right" x:num="45253.">23/11/2023</td>
+    <td class="xl66" align="right" x:num>8641.54</td>
+    <td class="xl66" align="right" x:num>432.08</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041012243-TIRUPATI BALAJI HP GAS GRAMEEN VITR</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>22</td>
+    <td class="xl67" align="right" x:num="45253.">23/11/2023</td>
+    <td class="xl66" align="right" x:num>8641.54</td>
+    <td class="xl66" align="right" x:num>432.08</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041012243-TIRUPATI BALAJI HP GAS GRAMEEN VITR</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>35</td>
+    <td class="xl67" align="right" x:num="45256.">26/11/2023</td>
+    <td class="xl66" align="right" x:num>11105.51</td>
+    <td class="xl66" align="right" x:num>555.28</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041017886-SUBEHA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>36</td>
+    <td class="xl67" align="right" x:num="45244.">14/11/2023</td>
+    <td class="xl66" align="right" x:num>18943.35</td>
+    <td class="xl66" align="right" x:num>947.17</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041007700-KAKA HP GAS CENTRE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>41</td>
+    <td class="xl67" align="right" x:num="45256.">26/11/2023</td>
+    <td class="xl66" align="right" x:num>11105.51</td>
+    <td class="xl66" align="right" x:num>555.28</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041017886-SUBEHA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>42</td>
+    <td class="xl67" align="right" x:num="45244.">14/11/2023</td>
+    <td class="xl66" align="right" x:num>18943.35</td>
+    <td class="xl66" align="right" x:num>947.17</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041007700-KAKA HP GAS CENTRE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>48</td>
+    <td class="xl67" align="right" x:num="45258.">28/11/2023</td>
+    <td class="xl66" align="right" x:num>7173.79</td>
+    <td class="xl66" align="right" x:num>358.69</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041017829-ANS ENTERPRISES</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>55</td>
+    <td class="xl67" align="right" x:num="45258.">28/11/2023</td>
+    <td class="xl66" align="right" x:num>7173.79</td>
+    <td class="xl66" align="right" x:num>358.69</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041017829-ANS ENTERPRISES</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>57</td>
+    <td class="xl67" align="right" x:num="45246.">16/11/2023</td>
+    <td class="xl66" align="right" x:num>18770.67</td>
+    <td class="xl66" align="right" x:num>938.53</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041009507-INDRAVIJAY GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>60</td>
+    <td class="xl67" align="right" x:num="45246.">16/11/2023</td>
+    <td class="xl66" align="right" x:num>18770.67</td>
+    <td class="xl66" align="right" x:num>938.53</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041009507-INDRAVIJAY GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>63</td>
+    <td class="xl67" align="right" x:num="45254.">24/11/2023</td>
+    <td class="xl66" align="right" x:num>11623.36</td>
+    <td class="xl66" align="right" x:num>581.17</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041017898-JAGDISH HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>69</td>
+    <td class="xl67" align="right" x:num="45254.">24/11/2023</td>
+    <td class="xl66" align="right" x:num>11623.36</td>
+    <td class="xl66" align="right" x:num>581.17</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041017898-JAGDISH HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>77</td>
+    <td class="xl67" align="right" x:num="45247.">17/11/2023</td>
+    <td class="xl66" align="right" x:num>3823.01</td>
+    <td class="xl66" align="right" x:num>191.15</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041005971-MAMTA GAS AGENCY</td>
+   </tr>
+   <tr height="40" style='height:30.00pt;'>
+    <td class="xl66" height="40" align="right" style='height:30.00pt;' x:num>81</td>
+    <td class="xl67" align="right" x:num="45251.">21/11/2023</td>
+    <td class="xl66" align="right" x:num>7671.32</td>
+    <td class="xl66" align="right" x:num>383.57</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041028527-BILHAUR GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>84</td>
+    <td class="xl67" align="right" x:num="45247.">17/11/2023</td>
+    <td class="xl66" align="right" x:num>3823.01</td>
+    <td class="xl66" align="right" x:num>191.15</td>
+    <td class="xl66" x:str>UP14FT5473</td>
+    <td class="xl66" x:str>0041005971-MAMTA GAS AGENCY</td>
+   </tr>
+   <tr height="40" style='height:30.00pt;'>
+    <td class="xl66" height="40" align="right" style='height:30.00pt;' x:num>2</td>
+    <td class="xl67" align="right" x:num="45254.">24/11/2023</td>
+    <td class="xl66" align="right" x:num>12858.15</td>
+    <td class="xl66" align="right" x:num>642.91</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041011760-RAMESH CHANDRA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>19</td>
+    <td class="xl67" align="right" x:num="45246.">16/11/2023</td>
+    <td class="xl66" align="right" x:num>10122.98</td>
+    <td class="xl66" align="right" x:num>506.15</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041021787-KISAN GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>23</td>
+    <td class="xl67" align="right" x:num="45246.">16/11/2023</td>
+    <td class="xl66" align="right" x:num>10122.98</td>
+    <td class="xl66" align="right" x:num>506.15</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041021787-KISAN GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>32</td>
+    <td class="xl67" align="right" x:num="45248.">18/11/2023</td>
+    <td class="xl66" align="right" x:num>14686.98</td>
+    <td class="xl66" align="right" x:num>734.35</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041011969-SHYAM GAS SERVICE</td>
+   </tr>
+   <tr height="40" style='height:30.00pt;'>
+    <td class="xl66" height="40" align="right" style='height:30.00pt;' x:num>38</td>
+    <td class="xl67" align="right" x:num="45248.">18/11/2023</td>
+    <td class="xl66" align="right" x:num>14686.98</td>
+    <td class="xl66" align="right" x:num>734.35</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041011969-SHYAM GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>44</td>
+    <td class="xl67" align="right" x:num="45252.">22/11/2023</td>
+    <td class="xl66" align="right" x:num>11073.42</td>
+    <td class="xl66" align="right" x:num>553.67</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041017886-SUBEHA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>47</td>
+    <td class="xl67" align="right" x:num="45258.">28/11/2023</td>
+    <td class="xl66" align="right" x:num>5045.29</td>
+    <td class="xl66" align="right" x:num>252.26</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041011755-M/s RATAN HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>51</td>
+    <td class="xl67" align="right" x:num="45252.">22/11/2023</td>
+    <td class="xl66" align="right" x:num>11073.42</td>
+    <td class="xl66" align="right" x:num>553.67</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041017886-SUBEHA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>54</td>
+    <td class="xl67" align="right" x:num="45258.">28/11/2023</td>
+    <td class="xl66" align="right" x:num>5045.29</td>
+    <td class="xl66" align="right" x:num>252.26</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041011755-M/s RATAN HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>66</td>
+    <td class="xl67" align="right" x:num="45256.">26/11/2023</td>
+    <td class="xl66" align="right" x:num>13509.45</td>
+    <td class="xl66" align="right" x:num>675.47</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041011769-GANESHI GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>67</td>
+    <td class="xl67" align="right" x:num="45245.">15/11/2023</td>
+    <td class="xl66" align="right" x:num>8099.08</td>
+    <td class="xl66" align="right" x:num>404.95</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041023877-KACHCHAUNA GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>72</td>
+    <td class="xl67" align="right" x:num="45256.">26/11/2023</td>
+    <td class="xl66" align="right" x:num>13509.45</td>
+    <td class="xl66" align="right" x:num>675.47</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041011769-GANESHI GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>73</td>
+    <td class="xl67" align="right" x:num="45245.">15/11/2023</td>
+    <td class="xl66" align="right" x:num>8099.08</td>
+    <td class="xl66" align="right" x:num>404.95</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041023877-KACHCHAUNA GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>76</td>
+    <td class="xl67" align="right" x:num="45255.">25/11/2023</td>
+    <td class="xl66" align="right" x:num>4931.48</td>
+    <td class="xl66" align="right" x:num>246.57</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041029965-BALMIKI GAS SERVICE</td>
+   </tr>
+   <tr height="40" style='height:30.00pt;'>
+    <td class="xl66" height="40" align="right" style='height:30.00pt;' x:num>79</td>
+    <td class="xl67" align="right" x:num="45254.">24/11/2023</td>
+    <td class="xl66" align="right" x:num>12858.15</td>
+    <td class="xl66" align="right" x:num>642.91</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041011760-RAMESH CHANDRA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>83</td>
+    <td class="xl67" align="right" x:num="45255.">25/11/2023</td>
+    <td class="xl66" align="right" x:num>4931.48</td>
+    <td class="xl66" align="right" x:num>246.57</td>
+    <td class="xl66" x:str>UP14FT6158</td>
+    <td class="xl66" x:str>0041029965-BALMIKI GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>9</td>
+    <td class="xl67" align="right" x:num="45250.">20/11/2023</td>
+    <td class="xl66" align="right" x:num>10113.2</td>
+    <td class="xl66" align="right" x:num>505.66</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041021787-KISAN GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>10</td>
+    <td class="xl67" align="right" x:num="45241.">11/11/2023</td>
+    <td class="xl66" align="right" x:num>17010.87</td>
+    <td class="xl66" align="right" x:num>850.54</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041009770-SHITAL HP GAS CENTER</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>15</td>
+    <td class="xl67" align="right" x:num="45250.">20/11/2023</td>
+    <td class="xl66" align="right" x:num>10113.2</td>
+    <td class="xl66" align="right" x:num>505.66</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041021787-KISAN GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>16</td>
+    <td class="xl67" align="right" x:num="45241.">11/11/2023</td>
+    <td class="xl66" align="right" x:num>17010.87</td>
+    <td class="xl66" align="right" x:num>850.54</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041009770-SHITAL HP GAS CENTER</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>26</td>
+    <td class="xl67" align="right" x:num="45258.">28/11/2023</td>
+    <td class="xl66" align="right" x:num>4970.79</td>
+    <td class="xl66" align="right" x:num>248.54</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041017872-KHUSHI GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>29</td>
+    <td class="xl67" align="right" x:num="45258.">28/11/2023</td>
+    <td class="xl66" align="right" x:num>4970.79</td>
+    <td class="xl66" align="right" x:num>248.54</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041017872-KHUSHI GAS SERVICE</td>
+   </tr>
+   <tr height="40" style='height:30.00pt;'>
+    <td class="xl66" height="40" align="right" style='height:30.00pt;' x:num>33</td>
+    <td class="xl67" align="right" x:num="45248.">18/11/2023</td>
+    <td class="xl66" align="right" x:num>24960.46</td>
+    <td class="xl66" align="right" x:num>1248.02</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041007975-M/S NIRMALA DEVI HP GAS GRAMIN VITR</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>34</td>
+    <td class="xl67" align="right" x:num="45255.">25/11/2023</td>
+    <td class="xl66" align="right" x:num>10396.07</td>
+    <td class="xl66" align="right" x:num>519.8</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041011926-EKTA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="40" style='height:30.00pt;'>
+    <td class="xl66" height="40" align="right" style='height:30.00pt;' x:num>39</td>
+    <td class="xl67" align="right" x:num="45248.">18/11/2023</td>
+    <td class="xl66" align="right" x:num>24960.46</td>
+    <td class="xl66" align="right" x:num>1248.02</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041007975-M/S NIRMALA DEVI HP GAS GRAMIN VITR</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>40</td>
+    <td class="xl67" align="right" x:num="45255.">25/11/2023</td>
+    <td class="xl66" align="right" x:num>10396.07</td>
+    <td class="xl66" align="right" x:num>519.8</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041011926-EKTA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>43</td>
+    <td class="xl67" align="right" x:num="45254.">24/11/2023</td>
+    <td class="xl66" align="right" x:num>8335.58</td>
+    <td class="xl66" align="right" x:num>416.78</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041024715-SHANTI GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>45</td>
+    <td class="xl67" align="right" x:num="45252.">22/11/2023</td>
+    <td class="xl66" align="right" x:num>8133.62</td>
+    <td class="xl66" align="right" x:num>406.68</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041010197-SURYA GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>46</td>
+    <td class="xl67" align="right" x:num="45257.">27/11/2023</td>
+    <td class="xl66" align="right" x:num>4979.52</td>
+    <td class="xl66" align="right" x:num>248.98</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041011473-M/s PATAN HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>50</td>
+    <td class="xl67" align="right" x:num="45254.">24/11/2023</td>
+    <td class="xl66" align="right" x:num>8335.58</td>
+    <td class="xl66" align="right" x:num>416.78</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041024715-SHANTI GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>52</td>
+    <td class="xl67" align="right" x:num="45252.">22/11/2023</td>
+    <td class="xl66" align="right" x:num>8133.62</td>
+    <td class="xl66" align="right" x:num>406.68</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041010197-SURYA GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>53</td>
+    <td class="xl67" align="right" x:num="45257.">27/11/2023</td>
+    <td class="xl66" align="right" x:num>4979.52</td>
+    <td class="xl66" align="right" x:num>248.98</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041011473-M/s PATAN HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>58</td>
+    <td class="xl67" align="right" x:num="45246.">16/11/2023</td>
+    <td class="xl66" align="right" x:num>8829.24</td>
+    <td class="xl66" align="right" x:num>441.46</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041011306-NARAIN GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>61</td>
+    <td class="xl67" align="right" x:num="45246.">16/11/2023</td>
+    <td class="xl66" align="right" x:num>8829.24</td>
+    <td class="xl66" align="right" x:num>441.46</td>
+    <td class="xl66" x:str>UP14FT8994</td>
+    <td class="xl66" x:str>0041011306-NARAIN GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>3</td>
+    <td class="xl67" align="right" x:num="45251.">21/11/2023</td>
+    <td class="xl66" align="right" x:num>4979.52</td>
+    <td class="xl66" align="right" x:num>248.98</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041009758-MAA BHUVNESHWARI HP GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>5</td>
+    <td class="xl67" align="right" x:num="45255.">25/11/2023</td>
+    <td class="xl66" align="right" x:num>16791.52</td>
+    <td class="xl66" align="right" x:num>839.58</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041013593-DIKSHA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>6</td>
+    <td class="xl67" align="right" x:num="45248.">18/11/2023</td>
+    <td class="xl66" align="right" x:num>16499.62</td>
+    <td class="xl66" align="right" x:num>824.98</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041017851-AWADH LPG GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>11</td>
+    <td class="xl67" align="right" x:num="45255.">25/11/2023</td>
+    <td class="xl66" align="right" x:num>16791.52</td>
+    <td class="xl66" align="right" x:num>839.58</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041013593-DIKSHA HP GAS GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>12</td>
+    <td class="xl67" align="right" x:num="45248.">18/11/2023</td>
+    <td class="xl66" align="right" x:num>16499.62</td>
+    <td class="xl66" align="right" x:num>824.98</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041017851-AWADH LPG GRAMIN VITRAK</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>17</td>
+    <td class="xl67" align="right" x:num="45253.">23/11/2023</td>
+    <td class="xl66" align="right" x:num>19002.41</td>
+    <td class="xl66" align="right" x:num>950.12</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041007700-KAKA HP GAS CENTRE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>20</td>
+    <td class="xl67" align="right" x:num="45241.">11/11/2023</td>
+    <td class="xl66" align="right" x:num>8730.08</td>
+    <td class="xl66" align="right" x:num>436.5</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041006005-HARRAI HP GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>21</td>
+    <td class="xl67" align="right" x:num="45253.">23/11/2023</td>
+    <td class="xl66" align="right" x:num>19002.41</td>
+    <td class="xl66" align="right" x:num>950.12</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041007700-KAKA HP GAS CENTRE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>24</td>
+    <td class="xl67" align="right" x:num="45241.">11/11/2023</td>
+    <td class="xl66" align="right" x:num>8730.08</td>
+    <td class="xl66" align="right" x:num>436.5</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041006005-HARRAI HP GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>25</td>
+    <td class="xl67" align="right" x:num="45257.">27/11/2023</td>
+    <td class="xl66" align="right" x:num>6861.59</td>
+    <td class="xl66" align="right" x:num>343.08</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041005915-ASHUKRISHNA HP GAS AGENCY</td>
+   </tr>
+   <tr height="40" style='height:30.00pt;'>
+    <td class="xl66" height="40" align="right" style='height:30.00pt;' x:num>27</td>
+    <td class="xl67" align="right" x:num="45259.">29/11/2023</td>
+    <td class="xl66" align="right" x:num>4979.52</td>
+    <td class="xl66" align="right" x:num>248.98</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041009857-MAA JWALA DEVI HP GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>28</td>
+    <td class="xl67" align="right" x:num="45257.">27/11/2023</td>
+    <td class="xl66" align="right" x:num>6861.59</td>
+    <td class="xl66" align="right" x:num>343.08</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041005915-ASHUKRISHNA HP GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>30</td>
+    <td class="xl67" align="right" x:num="45259.">29/11/2023</td>
+    <td class="xl66" align="right" x:num>4979.52</td>
+    <td class="xl66" align="right" x:num>248.98</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041009857-MAA JWALA DEVI HP GAS AGENCY</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>75</td>
+    <td class="xl67" align="right" x:num="45247.">17/11/2023</td>
+    <td class="xl66" align="right" x:num>4956.96</td>
+    <td class="xl66" align="right" x:num>247.85</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041011364-S G GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>80</td>
+    <td class="xl67" align="right" x:num="45251.">21/11/2023</td>
+    <td class="xl66" align="right" x:num>4979.52</td>
+    <td class="xl66" align="right" x:num>248.98</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041009758-MAA BHUVNESHWARI HP GAS SERVICE</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" align="right" style='height:15.00pt;' x:num>82</td>
+    <td class="xl67" align="right" x:num="45247.">17/11/2023</td>
+    <td class="xl66" align="right" x:num>4956.96</td>
+    <td class="xl66" align="right" x:num>247.85</td>
+    <td class="xl66" x:str>UP23T5655</td>
+    <td class="xl66" x:str>0041011364-S G GAS SERVICE</td>
+   </tr>
+   <![if supportMisalignedColumns]>
+    <tr width="0" style='display:none;'>
+     <td width="114" style='width:86;'></td>
+     <td width="104" style='width:78;'></td>
+     <td width="80" style='width:60;'></td>
+     <td width="94" style='width:71;'></td>
+     <td width="131" style='width:98;'></td>
+     <td width="326" style='width:245;'></td>
+    </tr>
+   <![endif]>
+  </table>
+ </body>
+</html>
