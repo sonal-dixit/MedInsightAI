@@ -28,7 +28,6 @@ json5==0.9.6
 jsonpointer==2.1
 keras-preprocessing==1.1.2
 kiwisolver==1.4.5
-llvmlite==0.37.0
 locket==0.2.1
 lxml==4.8.0
 MarkupSafe==2.1.5
