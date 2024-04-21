@@ -12,8 +12,8 @@ const Navbar = () => {
   };
 
   const isActiveTab = (tab) => {
-    if(pathname === "/" && tab === "heart") return true;
-    return pathname === `/${tab}`? tab : "";
+    if (pathname === "/" && tab === "heart") return true;
+    return pathname === `/${tab}` ? tab : "";
   };
 
   const getHeading = (path) => {
@@ -33,7 +33,6 @@ const Navbar = () => {
   };
 
   const dark = getHeading(pathname) || pathname === "/loading" ? true : false;
-
   return (
     <div
       className="h-20 flex items-center justify-between px-28 shadow-lg max-sm:px-4 z-10"
@@ -46,50 +45,59 @@ const Navbar = () => {
           className="w-48 max-sm:w-40 pointer-events-none select-none"
         />
       </Link>
-      <div className="gap-2 flex ">
+      {pathname !== "/report" ? (
+        <div className="gap-2 flex ">
+          <button
+            className={`btn ${isActiveTab("heart") ? "active" : ""}`}
+            onClick={() => handleTabChange("heart")}
+          >
+            Heart
+          </button>
+          <button
+            className={`btn ${isActiveTab("diabetes") ? "active" : ""}`}
+            onClick={() => handleTabChange("diabetes")}
+          >
+            Diabetes
+          </button>
+          <button
+            className={`btn ${isActiveTab("breastCancer") ? "active" : ""}`}
+            onClick={() => handleTabChange("breastCancer")}
+          >
+            Breast Cancer
+          </button>
+          <button
+            className={`btn ${isActiveTab("kidney") ? "active" : ""}`}
+            onClick={() => handleTabChange("kidney")}
+          >
+            Kidney
+          </button>
+          <button
+            className={`btn ${isActiveTab("liver") ? "active" : ""}`}
+            onClick={() => handleTabChange("liver")}
+          >
+            Liver
+          </button>
+          <button
+            className={`btn ${isActiveTab("malaria") ? "active" : ""}`}
+            onClick={() => handleTabChange("malaria")}
+          >
+            Malaria
+          </button>
+          <button
+            className={`btn ${isActiveTab("pneumonia") ? "active" : ""}`}
+            onClick={() => handleTabChange("pneumonia")}
+          >
+            Pneumonia
+          </button>
+        </div>
+      ) : (
         <button
-          className={`btn ${isActiveTab("heart") ? "active" : ""}`}
+          className={`btn btn-ghost text-black  ${isActiveTab("heart") ? "active" : ""}`}
           onClick={() => handleTabChange("heart")}
         >
-          Heart
+          Home
         </button>
-        <button
-          className={`btn ${isActiveTab("diabetes") ? "active" : ""}`}
-          onClick={() => handleTabChange("diabetes")}
-        >
-          Diabetes
-        </button>
-        <button
-          className={`btn ${isActiveTab("breastCancer") ? "active" : ""}`}
-          onClick={() => handleTabChange("breastCancer")}
-        >
-          Breast Cancer
-        </button>
-        <button
-          className={`btn ${isActiveTab("kidney") ? "active" : ""}`}
-          onClick={() => handleTabChange("kidney")}
-        >
-          Kidney
-        </button>
-        <button
-          className={`btn ${isActiveTab("liver") ? "active" : ""}`}
-          onClick={() => handleTabChange("liver")}
-        >
-          Liver
-        </button>
-        <button
-          className={`btn ${isActiveTab("malaria") ? "active" : ""}`}
-          onClick={() => handleTabChange("malaria")}
-        >
-          Malaria
-        </button>
-        <button
-          className={`btn ${isActiveTab("pneumonia") ? "active" : ""}`}
-          onClick={() => handleTabChange("pneumonia")}
-        >
-          Pneumonia
-        </button>
-      </div>
+      )}
     </div>
   );
 };

@@ -39,10 +39,10 @@ const SideCards = () => {
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-2 justify-center items-center">
           <h1 className="text-4xl font-semibold text-[#040354] max-sm:text-center">
-            REPORTS
+            Prediction Result
           </h1>
         </div>
-        <div className="flex gap-8 justify-center max-lg:flex-wrap">
+        {/* <div className="flex gap-8 justify-center max-lg:flex-wrap">
           {ButtonLabel.map((label, idx) => {
             return (
               <button
@@ -58,7 +58,7 @@ const SideCards = () => {
               </button>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </>
   );

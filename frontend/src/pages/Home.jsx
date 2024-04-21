@@ -49,13 +49,28 @@ const NewHome = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // try {
-    //   const response = await axios.post("/predict", formData);
-    //   console.log(response.data);
-    // } catch (error) {
-    //   console.error(error);
-    // }
-    navigate("/loading");
+    // let config = {
+    //   method: "post",
+    //   maxBodyLength: Infinity,
+    //   url: "http://127.0.0.1:5000/predict",
+    //   headers: {
+    //     Accept:
+    //       "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,/;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    //     "Content-Type": "application/x-www-form-urlencoded",
+    //   },
+    //   data: formData,
+    // };
+
+    // axios
+    //   .request(config)
+    //   .then((response) => {
+    //     console.log(JSON.stringify(response.data));
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
+    const stingdata = JSON.stringify(formData);
+    navigate("/loading" + "?data=" + stingdata + "&path=" + path);
   };
 
   const getHeading = () => {
@@ -115,7 +130,7 @@ const NewHome = () => {
             <h1 className="text-white-50 text-4xl font-semibold text-center">
               {getHeading()}
             </h1>
-            {(path === "/heart" || path==="/") && (
+            {(path === "/heart" || path === "/") && (
               <HeartForm formData={formData} setFormData={setFormData} />
             )}
             {path === "/diabetes" && (

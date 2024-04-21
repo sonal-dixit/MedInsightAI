@@ -2,6 +2,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import imgg2 from "../assets/loading.mp4";
 import imgg1 from "../assets/loading.webm";
+import axios from "axios";
 
 const AnimatedLoadingText = () => {
   return <p id="loading-text" className="text-center font-bold"></p>;
@@ -25,10 +26,26 @@ const Heading = () => {
 
 const Loading = () => {
   const navigate = useNavigate(false);
+  const [resD, setD] = useState("");
+  const { search } = useLocation();
+  const searchParams = new URLSearchParams(search);
   useEffect(() => {
-    setTimeout(() => {
-      navigate('/report/heartreport');
-    }, 2000);
+    const getGPTResponse = async (data) => {
+      const res = await axios.get(
+        "https://gemini-8phb.onrender.com/api/ask?prompt=" + data
+      );
+      console.log(res.data);
+      navigate(
+        "/report" + window.location.search + "&resD=" + JSON.stringify(res.data)
+      );
+    };
+    getGPTResponse(
+      searchParams.get("data") +
+        "tell in detail about each feature in medical terms and what do you infer from this, give in proper markdown format"
+    );
+    // setTimeout(() => {
+    //   navigate('/report'+window.location.search);
+    // }, 2000);
   }, []);
 
   return (

@@ -10,10 +10,9 @@ import { PageTransition } from "./components/Animations";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Loading from "./pages/Loading";
-import HeartReport from "./pages/ResultPages/HeartReport";
-import LungsReport from "./pages/ResultPages/LungsReport";
-import DiabetesReport from "./pages/ResultPages/DiabetesReport";
+import Report from "./components/Report";
 import SearchResults from "./pages/SearchResults";
+import DiabetesReport from "./pages/ResultPages/DiabetesReport";
 
 function ScrollToTopOnRouteChange() {
   const location = useLocation();
@@ -49,17 +48,10 @@ const App = () => {
             <Route path="/breastCancer" element={<Home />} />
             <Route path="/diabetes" element={<Home />} />
             <Route
-              path="/report/*"
+              path="/report"
               element={
                 <Search>
-                  <Routes>
-                    <Route path="/heartreport" element={<HeartReport />} />
-                    <Route path="/lungsreport" element={<LungsReport />} />
-                    <Route
-                      path="/diabetesreport"
-                      element={<DiabetesReport />}
-                    />
-                  </Routes>
+                  <DiabetesReport/>
                 </Search>
               }
             />
