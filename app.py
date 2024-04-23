@@ -5,9 +5,10 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 from loguru import logger
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app)
 def predict(values, dic):
     if len(values) == 8:  # diabetes
         dic2 = {'NewBMI_Obesity 1': 0, 'NewBMI_Obesity 2': 0, 'NewBMI_Obesity 3': 0, 'NewBMI_Overweight': 0,
@@ -137,8 +138,8 @@ def malariapredictPage():
             img = tf.keras.utils.load_img(img_path, target_size=(128, 128))
             img = tf.keras.utils.img_to_array(img)
             img = np.expand_dims(img, axis=0)
-
             model = tf.keras.models.load_model("models/malaria.h5")
+            logger.info("1")
             pred_prob = model.predict(img)[0][0]  # Assuming 0 is negative class and 1 is positive class
 
             # Apply thresholding
